@@ -7,6 +7,54 @@ public class Person {
     private String name;
     private int age;
 
+    //five new fields
+    private Boolean isFemale;
+    private Character middleName;
+    private Integer birthYear;
+    private String petName;
+    private int clothesSize;
+
+
+    public Boolean getFemale() {
+        return isFemale;
+    }
+
+    public void setFemale(Boolean female) {
+        isFemale = female;
+    }
+
+    public Character getMiddleName() {
+        return middleName;
+    }
+
+    public void setMiddleName(Character middleName) {
+        this.middleName = middleName;
+    }
+
+    public Integer getBirthYear() {
+        return birthYear;
+    }
+
+    public void setBirthYear(Integer birthYear) {
+        this.birthYear = birthYear;
+    }
+
+    public String getPetName() {
+        return petName;
+    }
+
+    public void setPetName(String petName) {
+        this.petName = petName;
+    }
+
+    public int getClothesSize() {
+        return clothesSize;
+    }
+
+    public void setClothesSize(int clothesSize) {
+        this.clothesSize = clothesSize;
+    }
+
     public Person() {
         this.name = "";
         this.age = Integer.MAX_VALUE;
